@@ -1,717 +1,572 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- embed reset css -->
-        <link rel="stylesheet" href="./assets/css/reset.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- embed css -->
-        <link rel="stylesheet" href="./assets/css/home.css" />
+    <!-- embed bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-        <!-- embed front -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@400;500&display=swap"
-            rel="stylesheet"
-        />
+    <!-- embed reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
 
-        <title>Travel</title>
-    </head>
-    <body>
-        <header class="header">
-            <div class="content">
-                <div class="header__top">
-                    <div class="header__heading">
-                        <img src="./assets/img/favicon.svg" alt="favicon" />
-                        <h1 class="header__title">Travel</h1>
-                    </div>
+    <!-- embed css -->
+    <link rel="stylesheet" href="./assets/css/home.css" />
 
-                    <nav class="header__nav">
-                        <ul class="header__list">
-                            <li>
-                                <a href="#" class="header__item header__home"
-                                    >Home</a
-                                >
-                            </li>
-                            <li>
-                                <a href="#!" class="header__item">About me</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="header__item"
-                                    >Visited Place</a
-                                >
-                            </li>
-                            <li>
-                                <a href="./blog.html" class="header__item"
-                                    >Blog</a
-                                >
-                            </li>
-                            <li>
-                                <a href="#!" class="header__item">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+    <!-- embed front -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-                    <div class="header__action">
-                        <img
-                            class="header__social"
-                            src="./assets/img/Social icon.svg"
-                            alt="social"
-                        />
+    <title>Travel</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="content">
+        <div class="header__top">
+          <div class="header__heading">
+            <img src="./assets/img/favicon.svg" alt="favicon" />
+            <h1 class="header__title">Travel</h1>
+          </div>
 
-                        <button class="header__click">Latest Update</button>
-                    </div>
-                </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li>
+                <a href="#" class="header__item header__home">Home</a>
+              </li>
+              <li>
+                <a href="#!" class="header__item">About me</a>
+              </li>
+              <li>
+                <a href="#!" class="header__item">Visited Place</a>
+              </li>
+              <li>
+                <a href="./blog.html" class="header__item">Blog</a>
+              </li>
+              <li>
+                <a href="#!" class="header__item">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__action">
+            <img class="header__social" src="./assets/img/Social icon.svg" alt="social" />
+
+            <button class="header__click">Latest Update</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <img src="./assets/img/background.jpg" alt="background" class="background" />
+
+      <section class="post">
+        <div class="contain">
+          <div class="post__top">
+            <div class="post__imgs">
+              <img src="./assets/img/img-post.jpg" alt="img-video" class="post__img--above" />
+              <img src="./assets/img/ep_video-play.png" alt="video" class="post__img--below" />
             </div>
-        </header>
 
-        <main id="home">
-            <img
-                src="./assets/img/background.jpg"
-                alt="background"
-                class="background"
-            />
+            <section class="post__news">
+              <img src="./assets/img/img-new.png" alt="picture" class="post__picture" />
 
-            <section class="post">
-                <div class="contain">
-                    <div class="post__top">
-                        <div class="post__imgs">
-                            <img
-                                src="./assets/img/img-post.jpg"
-                                alt="img-video"
-                                class="post__img--above"
-                            />
-                            <img
-                                src="./assets/img/ep_video-play.png"
-                                alt="video"
-                                class="post__img--below"
-                            />
-                        </div>
+              <h3 class="post__title">samuals Robar</h3>
+              <p class="post__desc">World class traveler</p>
+              <p class="post__desc post__desc--below">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim tempor nam
+                dignissim neque, ullamcorper facilisis nulla hendrerit sagittis. Molestie placerat
+                justo integer vitae elementum lectus.
+              </p>
 
-                        <section class="post__news">
-                            <img
-                                src="./assets/img/img-new.png"
-                                alt="picture"
-                                class="post__picture"
-                            />
-
-                            <h3 class="post__title">samuals Robar</h3>
-                            <p class="post__desc">World class traveler</p>
-                            <p class="post__desc post__desc--below">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Dignissim tempor nam dignissim
-                                neque, ullamcorper facilisis nulla hendrerit
-                                sagittis. Molestie placerat justo integer vitae
-                                elementum lectus.
-                            </p>
-
-                            <div class="post__action">
-                                <a href="#!" class="post__link">Read more</a>
-                                <img
-                                    src="./assets/img/arrow.png"
-                                    alt="arrow"
-                                    class="post__arrow"
-                                />
-                            </div>
-                        </section>
-                    </div>
-                </div>
+              <div class="post__action">
+                <a href="#!" class="post__link">Read more</a>
+                <img src="./assets/img/arrow.png" alt="arrow" class="post__arrow" />
+              </div>
             </section>
+          </div>
+        </div>
+      </section>
 
-            <section class="place">
-                <div class="contain">
-                    <div class="place__top">
-                        <div class="place__heading">
-                            <div class="place__title">
-                                Places Where I have Visited
-                            </div>
-                            <div class="place__separate"></div>
-                        </div>
+      <section class="place">
+        <div class="contain">
+          <div class="place__top">
+            <div class="place__heading">
+              <div class="place__title">Places Where I have Visited</div>
+              <div class="place__separate"></div>
+            </div>
 
-                        <div class="place__list">
-                            <div class="place__item--1 place__item">
-                                <div class="place__father">
-                                    <h3 class="place__head">Eiffel Tow er</h3>
-                                    <h4 class="place__address">Paris</h4>
-                                    <p class="places__desc">
-                                        Lorem ipsum dolor amet, consectetur
-                                        adipiscing elit. Sed est, tellus
-                                        faucibus mi amet, metus. A tempus at
-                                        odio quisque nec non eget varius commodo
-                                        aliquet tincidunt.
-                                    </p>
+            <div class="place__list">
+              <div class="place__item--1 place__item">
+                <div class="place__father">
+                  <h3 class="place__head">Eiffel Tow er</h3>
+                  <h4 class="place__address">Paris</h4>
+                  <p class="places__desc">
+                    Lorem ipsum dolor amet, consectetur adipiscing elit. Sed est, tellus faucibus mi
+                    amet, metus. A tempus at odio quisque nec non eget varius commodo aliquet
+                    tincidunt.
+                  </p>
 
-                                    <div class="post__action">
-                                        <a
-                                            href="#!"
-                                            class="post__link place__link"
-                                            >Read more</a
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="23"
-                                            height="9"
-                                            viewBox="0 0 23 9"
-                                            fill="none"
-                                            class="place__arrow"
-                                        >
-                                            <path
-                                                d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="place__item--2 place__item">
-                                <div class="place__father">
-                                    <h3 class="place__head">
-                                        Colossehhhhhhhhhum
-                                    </h3>
-                                    <h4 class="place__address">Rome</h4>
-                                    <p class="places__desc">
-                                        Lorem ipsum dolor amet, consectetur
-                                        adipiscing elit. Sed est, tellus
-                                        faucibus mi amet, metus. A tempus at
-                                        odio quisque nec non eget varius commodo
-                                        aliquet tincidunt.
-                                    </p>
-
-                                    <div class="post__action">
-                                        <a
-                                            href="#!"
-                                            class="post__link place__link"
-                                            >Read more</a
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="23"
-                                            height="9"
-                                            viewBox="0 0 23 9"
-                                            fill="none"
-                                            class="place__arrow"
-                                        >
-                                            <path
-                                                d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="place__item--3 place__item">
-                                <div class="place__father">
-                                    <h3 class="place__head">Eiffel Tow er</h3>
-                                    <h4 class="place__address">Paris</h4>
-                                    <p class="places__desc">
-                                        Lorem ipsum dolor amet, consectetur
-                                        adipiscing elit. Sed est, tellus
-                                        faucibus mi amet, metus. A tempus at
-                                        odio quisque nec non eget varius commodo
-                                        aliquet tincidunt.
-                                    </p>
-
-                                    <div class="post__action">
-                                        <a
-                                            href="#!"
-                                            class="post__link place__link"
-                                            >Read more</a
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="23"
-                                            height="9"
-                                            viewBox="0 0 23 9"
-                                            fill="none"
-                                            class="place__arrow"
-                                        >
-                                            <path
-                                                d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="place__list">
-                            <div class="place__item--1 place__item">
-                                <div class="place__father">
-                                    <h3 class="place__head">Eiffel Tow er</h3>
-                                    <h4 class="place__address">Paris</h4>
-                                    <p class="places__desc">
-                                        Lorem ipsum dolor amet, consectetur
-                                        adipiscing elit. Sed est, tellus
-                                        faucibus mi amet, metus. A tempus at
-                                        odio quisque nec non eget varius commodo
-                                        aliquet tincidunt.
-                                    </p>
-
-                                    <div class="post__action">
-                                        <a
-                                            href="#!"
-                                            class="post__link place__link"
-                                            >Read more</a
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="23"
-                                            height="9"
-                                            viewBox="0 0 23 9"
-                                            fill="none"
-                                            class="place__arrow"
-                                        >
-                                            <path
-                                                d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="place__item--2 place__item">
-                                <div class="place__father">
-                                    <h3 class="place__head">
-                                        Colossehhhhhhhhhum
-                                    </h3>
-                                    <h4 class="place__address">Rome</h4>
-                                    <p class="places__desc">
-                                        Lorem ipsum dolor amet, consectetur
-                                        adipiscing elit. Sed est, tellus
-                                        faucibus mi amet, metus. A tempus at
-                                        odio quisque nec non eget varius commodo
-                                        aliquet tincidunt.
-                                    </p>
-
-                                    <div class="post__action">
-                                        <a
-                                            href="#!"
-                                            class="post__link place__link"
-                                            >Read more</a
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="23"
-                                            height="9"
-                                            viewBox="0 0 23 9"
-                                            fill="none"
-                                            class="place__arrow"
-                                        >
-                                            <path
-                                                d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="place__item--3 place__item">
-                                <div class="place__father">
-                                    <h3 class="place__head">Eiffel Tow er</h3>
-                                    <h4 class="place__address">Paris</h4>
-                                    <p class="places__desc">
-                                        Lorem ipsum dolor amet, consectetur
-                                        adipiscing elit. Sed est, tellus
-                                        faucibus mi amet, metus. A tempus at
-                                        odio quisque nec non eget varius commodo
-                                        aliquet tincidunt.
-                                    </p>
-
-                                    <div class="post__action">
-                                        <a
-                                            href="#!"
-                                            class="post__link place__link"
-                                            >Read more</a
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="23"
-                                            height="9"
-                                            viewBox="0 0 23 9"
-                                            fill="none"
-                                            class="place__arrow"
-                                        >
-                                            <path
-                                                d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
-                                                fill="white"
-                                            />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <a href="#!" class="place__action">
-                            <p class="place__action--desc">Load More</p>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="28"
-                                height="24"
-                                viewBox="0 0 28 24"
-                                fill="none"
-                            >
-                                <path
-                                    d="M11.0521 0.916585C8.00328 1.96655 5.65844 4.07934 4.30444 6.67233L2.07903 5.64302C1.13687 5.20724 0.121102 6.09217 0.46913 7.04549L2.65117 13.0225C2.86691 13.6135 3.53645 13.9232 4.14665 13.7142L10.3181 11.6009C11.3024 11.2639 11.3746 9.94249 10.4325 9.5067L7.83096 8.30342C8.78142 6.52842 10.3594 5.18514 12.3066 4.49997C16.5472 3.00784 21.3498 5.11391 22.8668 9.38282C24.306 13.4324 22.163 17.9779 17.8441 19.4568C15.9508 20.1051 13.9225 20.0634 12.0748 19.348C11.7888 19.2372 11.4631 19.3614 11.3303 19.6307L10.15 22.0242C10.0051 22.3182 10.1454 22.6686 10.456 22.7939C13.127 23.8716 16.2034 24.0313 19.1462 23.0236C25.4515 20.8645 28.7557 14.1637 26.5264 8.05714C24.2997 1.95749 17.3461 -1.25098 11.0521 0.916585Z"
-                                    fill="black"
-                                />
-                            </svg>
-                        </a>
-                    </div>
+                  <div class="post__action">
+                    <a href="#!" class="post__link place__link">Read more</a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="9"
+                      viewBox="0 0 23 9"
+                      fill="none"
+                      class="place__arrow"
+                    >
+                      <path
+                        d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
                 </div>
-            </section>
+              </div>
+              <div class="place__item--2 place__item">
+                <div class="place__father">
+                  <h3 class="place__head">Colossehhhhhhhhhum</h3>
+                  <h4 class="place__address">Rome</h4>
+                  <p class="places__desc">
+                    Lorem ipsum dolor amet, consectetur adipiscing elit. Sed est, tellus faucibus mi
+                    amet, metus. A tempus at odio quisque nec non eget varius commodo aliquet
+                    tincidunt.
+                  </p>
 
-            <section class="guide">
-                <div class="guide__background">
-                    <h1 class="guide__title">
-                        Do not wait for the perfect time Start your Journey
-                        Today!
-                    </h1>
-                    <p class="guide__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Aliquam sagittis sit volutpat nisi sit condimentum ante.
-                        Tincidunt lobortis vitae, eget tempus At urna, in lorem
-                        elit quam tincidunt nibh convallis imperdiet. Amet morbi
-                        cras fringilla potenti morbi. Risus quis et id faucibus
-                        aliquet. Congue interdum dictum egestas turpis aliquam
-                        massa lobortis. Ullamcorper est.
-                    </p>
-                    <a href="#!" class="guide__button">Latest Travel Guide </a>
+                  <div class="post__action">
+                    <a href="#!" class="post__link place__link">Read more</a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="9"
+                      viewBox="0 0 23 9"
+                      fill="none"
+                      class="place__arrow"
+                    >
+                      <path
+                        d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
                 </div>
-            </section>
+              </div>
+              <div class="place__item--3 place__item">
+                <div class="place__father">
+                  <h3 class="place__head">Eiffel Tow er</h3>
+                  <h4 class="place__address">Paris</h4>
+                  <p class="places__desc">
+                    Lorem ipsum dolor amet, consectetur adipiscing elit. Sed est, tellus faucibus mi
+                    amet, metus. A tempus at odio quisque nec non eget varius commodo aliquet
+                    tincidunt.
+                  </p>
 
-            <section class="news">
-                <div class="contain">
-                    <div class="place__heading news__heading">
-                        <div class="place__title">Latest Posts and Guides</div>
-                        <div class="place__separate"></div>
-                    </div>
-
-                    <div class="news__list">
-                        <div class="news__item">
-                            <img
-                                src="./assets/img/news-1.png"
-                                alt=""
-                                class="news__picture"
-                            />
-                            <div class="news__father">
-                                <h3 class="news__info">
-                                    How to start your journey?
-                                </h3>
-                                <p class="news__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Morbi ut sed egestas
-                                    imperdiet hac mi nunc neque. Congue rutrum
-                                    arcu, consectetur molestie ornare justo.
-                                </p>
-                                <div class="post__action">
-                                    <a href="#!" class="post__link"
-                                        >Read more</a
-                                    >
-                                    <img
-                                        src="./assets/img/arrow.png"
-                                        alt="arrow"
-                                        class="post__arrow"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="news__item">
-                            <img
-                                src="./assets/img/new-2.png"
-                                alt=""
-                                class="news__picture"
-                            />
-                            <div class="news__father">
-                                <h3 class="news__info">
-                                    10 tips for new traveller!
-                                </h3>
-                                <p class="news__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Morbi ut sed egestas
-                                    imperdiet hac mi nunc neque. Congue rutrum
-                                    arcu, consectetur molestie ornare justo.
-                                </p>
-                                <div class="post__action">
-                                    <a href="#!" class="post__link"
-                                        >Read more</a
-                                    >
-                                    <img
-                                        src="./assets/img/arrow.png"
-                                        alt="arrow"
-                                        class="post__arrow"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="news__item">
-                            <img
-                                src="./assets/img/new-3.png"
-                                alt=""
-                                class="news__picture"
-                            />
-                            <div class="news__father">
-                                <h3 class="news__info">
-                                    Make money while travelling!
-                                </h3>
-                                <p class="news__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Morbi ut sed egestas
-                                    imperdiet hac mi nunc neque. Congue rutrum
-                                    arcu, consectetur molestie ornare justo.
-                                </p>
-                                <div class="post__action">
-                                    <a href="#!" class="post__link"
-                                        >Read more</a
-                                    >
-                                    <img
-                                        src="./assets/img/arrow.png"
-                                        alt="arrow"
-                                        class="post__arrow"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="#!" class="news__action"> View all </a>
+                  <div class="post__action">
+                    <a href="#!" class="post__link place__link">Read more</a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="9"
+                      viewBox="0 0 23 9"
+                      fill="none"
+                      class="place__arrow"
+                    >
+                      <path
+                        d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
                 </div>
-            </section>
+              </div>
+            </div>
 
-            <section class="tour">
-                <div class="contain">
-                    <div class="place__heading tour__heading">
-                        <div class="place__title">
-                            My Upcoming Tours & Destination
-                        </div>
-                        <div class="place__separate"></div>
-                    </div>
+            <div class="place__list">
+              <div class="place__item--1 place__item">
+                <div class="place__father">
+                  <h3 class="place__head">Eiffel Tow er</h3>
+                  <h4 class="place__address">Paris</h4>
+                  <p class="places__desc">
+                    Lorem ipsum dolor amet, consectetur adipiscing elit. Sed est, tellus faucibus mi
+                    amet, metus. A tempus at odio quisque nec non eget varius commodo aliquet
+                    tincidunt.
+                  </p>
 
-                    <section class="tour__list">
-                        <!-- item 1 -->
-                        <div class="tour__item">
-                            <img
-                                src="./assets/img/tour-1.png"
-                                alt="tour"
-                                class="tour__picture"
-                            />
-                            <div class="tour__body">
-                                <h3 class="tour__info">
-                                    Plan an Excellent Family Travel Adventure
-                                </h3>
-                                <p class="tour__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Dolor nunc purus id
-                                    facilisi cursus risus egestas orci. Quis
-                                    rhoncus nulla erat interdum adipiscing.
-                                    scelerisque interdum tristique arcu
-                                    scelerisque.
-                                </p>
-                                <p class="tour__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Tincidunt purus arcu
-                                    gravida sit a elit varius pellentesque.
-                                </p>
-
-                                <div class="post__action">
-                                    <a href="#!" class="post__link"
-                                        >Read more</a
-                                    >
-                                    <img
-                                        src="./assets/img/arrow.png"
-                                        alt="arrow"
-                                        class="post__arrow"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- item 2 -->
-                        <div class="tour__item">
-                            <div class="tour__body">
-                                <h3 class="tour__info">
-                                    Discover the place of adventure by traveling
-                                </h3>
-                                <p class="tour__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Dolor nunc purus id
-                                    facilisi cursus risus egestas orci. Quis
-                                    rhoncus nulla erat interdum adipiscing.
-                                    scelerisque interdum tristique arcu
-                                    scelerisque.
-                                </p>
-                                <p class="tour__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Tincidunt purus arcu
-                                    gravida sit a elit varius pellentesque.
-                                </p>
-
-                                <div class="post__action">
-                                    <a href="#!" class="post__link"
-                                        >Read more</a
-                                    >
-                                    <img
-                                        src="./assets/img/arrow.png"
-                                        alt="arrow"
-                                        class="post__arrow"
-                                    />
-                                </div>
-                            </div>
-
-                            <img
-                                src="./assets/img/tour-2.png"
-                                alt="tour"
-                                class="tour__picture"
-                            />
-                        </div>
-
-                        <!-- item 3 -->
-                        <div class="tour__item">
-                            <img
-                                src="./assets/img/tour-3.png"
-                                alt="tour "
-                                class="tour__picture"
-                            />
-                            <div class="tour__body">
-                                <h3 class="tour__info">
-                                    Discovering the Highest Mountain Peak of
-                                    Veleta
-                                </h3>
-                                <p class="tour__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Dolor nunc purus id
-                                    facilisi cursus risus egestas orci. Quis
-                                    rhoncus nulla erat interdum adipiscing.
-                                    scelerisque interdum tristique arcu
-                                    scelerisque.
-                                </p>
-                                <p class="tour__desc">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Tincidunt purus arcu
-                                    gravida sit a elit varius pellentesque.
-                                </p>
-
-                                <div class="post__action">
-                                    <a href="#!" class="post__link"
-                                        >Read more</a
-                                    >
-                                    <img
-                                        src="./assets/img/arrow.png"
-                                        alt="arrow"
-                                        class="post__arrow"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                  <div class="post__action">
+                    <a href="#!" class="post__link place__link">Read more</a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="9"
+                      viewBox="0 0 23 9"
+                      fill="none"
+                      class="place__arrow"
+                    >
+                      <path
+                        d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
                 </div>
-            </section>
+              </div>
+              <div class="place__item--2 place__item">
+                <div class="place__father">
+                  <h3 class="place__head">Colossehhhhhhhhhum</h3>
+                  <h4 class="place__address">Rome</h4>
+                  <p class="places__desc">
+                    Lorem ipsum dolor amet, consectetur adipiscing elit. Sed est, tellus faucibus mi
+                    amet, metus. A tempus at odio quisque nec non eget varius commodo aliquet
+                    tincidunt.
+                  </p>
 
-            <section class="signup">
-                <h3 class="signup__title">Newsletter Signup</h3>
-                <p class="signup__desc">
-                    Signup my newsletter for latest tour plan and guide
+                  <div class="post__action">
+                    <a href="#!" class="post__link place__link">Read more</a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="9"
+                      viewBox="0 0 23 9"
+                      fill="none"
+                      class="place__arrow"
+                    >
+                      <path
+                        d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="place__item--3 place__item">
+                <div class="place__father">
+                  <h3 class="place__head">Eiffel Tow er</h3>
+                  <h4 class="place__address">Paris</h4>
+                  <p class="places__desc">
+                    Lorem ipsum dolor amet, consectetur adipiscing elit. Sed est, tellus faucibus mi
+                    amet, metus. A tempus at odio quisque nec non eget varius commodo aliquet
+                    tincidunt.
+                  </p>
+
+                  <div class="post__action">
+                    <a href="#!" class="post__link place__link">Read more</a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="23"
+                      height="9"
+                      viewBox="0 0 23 9"
+                      fill="none"
+                      class="place__arrow"
+                    >
+                      <path
+                        d="M1 4C0.723858 4 0.5 4.22386 0.5 4.5C0.5 4.77614 0.723858 5 1 5V4ZM22.3536 4.85355C22.5488 4.65829 22.5488 4.34171 22.3536 4.14645L19.1716 0.964466C18.9763 0.769204 18.6597 0.769204 18.4645 0.964466C18.2692 1.15973 18.2692 1.47631 18.4645 1.67157L21.2929 4.5L18.4645 7.32843C18.2692 7.52369 18.2692 7.84027 18.4645 8.03553C18.6597 8.2308 18.9763 8.2308 19.1716 8.03553L22.3536 4.85355ZM1 5H22V4H1V5Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#!" class="place__action">
+              <p class="place__action--desc">Load More</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="24"
+                viewBox="0 0 28 24"
+                fill="none"
+              >
+                <path
+                  d="M11.0521 0.916585C8.00328 1.96655 5.65844 4.07934 4.30444 6.67233L2.07903 5.64302C1.13687 5.20724 0.121102 6.09217 0.46913 7.04549L2.65117 13.0225C2.86691 13.6135 3.53645 13.9232 4.14665 13.7142L10.3181 11.6009C11.3024 11.2639 11.3746 9.94249 10.4325 9.5067L7.83096 8.30342C8.78142 6.52842 10.3594 5.18514 12.3066 4.49997C16.5472 3.00784 21.3498 5.11391 22.8668 9.38282C24.306 13.4324 22.163 17.9779 17.8441 19.4568C15.9508 20.1051 13.9225 20.0634 12.0748 19.348C11.7888 19.2372 11.4631 19.3614 11.3303 19.6307L10.15 22.0242C10.0051 22.3182 10.1454 22.6686 10.456 22.7939C13.127 23.8716 16.2034 24.0313 19.1462 23.0236C25.4515 20.8645 28.7557 14.1637 26.5264 8.05714C24.2997 1.95749 17.3461 -1.25098 11.0521 0.916585Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide">
+        <div class="guide__background">
+          <h1 class="guide__title">Do not wait for the perfect time Start your Journey Today!</h1>
+          <p class="guide__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis sit volutpat
+            nisi sit condimentum ante. Tincidunt lobortis vitae, eget tempus At urna, in lorem elit
+            quam tincidunt nibh convallis imperdiet. Amet morbi cras fringilla potenti morbi. Risus
+            quis et id faucibus aliquet. Congue interdum dictum egestas turpis aliquam massa
+            lobortis. Ullamcorper est.
+          </p>
+          <a href="#!" class="guide__button">Latest Travel Guide </a>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="contain">
+          <div class="place__heading news__heading">
+            <div class="place__title">Latest Posts and Guides</div>
+            <div class="place__separate"></div>
+          </div>
+
+          <div class="news__list">
+            <div class="news__item">
+              <img src="./assets/img/news-1.png" alt="" class="news__picture" />
+              <div class="news__father">
+                <h3 class="news__info">How to start your journey?</h3>
+                <p class="news__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut sed egestas
+                  imperdiet hac mi nunc neque. Congue rutrum arcu, consectetur molestie ornare
+                  justo.
                 </p>
-                <form action="">
-                    <input
-                        type="email"
-                        name=""
-                        id=""
-                        placeholder="Enter your email address"
-                        class="signup__email"
-                    />
-
-                    <input
-                        type="button"
-                        value="Subscribe"
-                        class="signup__action"
-                    />
-                </form>
-            </section>
-        </main>
-
-        <footer>
-            <div class="contain">
-                <div class="footer__row">
-                    <div class="footer__column footer__column--max">
-                        <div class="header__heading">
-                            <img src="./assets/img/favicon.svg" alt="favicon" />
-                            <h1 class="header__title">Travel</h1>
-                        </div>
-
-                        <p class="footer__desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Venenatis euismod fermentum adipiscing
-                            tristique gravida congue aliquam. Adipiscing
-                            bibendum aliquam lectus vulputate viverra.
-                        </p>
-                    </div>
-
-                    <div class="footer__column">
-                        <h4 class="footer__info">Useful Links</h4>
-
-                        <ul class="footer__list">
-                            <li>
-                                <a href="#!" class="footer__item"
-                                    >Special Offers
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__item">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__item"
-                                    >Attractions</a
-                                >
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__item"
-                                    >Our Gallery</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="footer__column">
-                        <h4 class="footer__info">Find Events</h4>
-
-                        <ul class="footer__list">
-                            <li>
-                                <a href="#!" class="footer__item">Event </a>
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__item"
-                                    >Calendar Facilities</a
-                                >
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__item"
-                                    >Support & FAQ</a
-                                >
-                            </li>
-                            <li>
-                                <a href="#!" class="footer__item"
-                                    >Ways to Stay</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="footer__column">
-                        <h4 class="footer__info">Follor me on Social</h4>
-
-                        <img
-                            src="./assets/img/social-2.png"
-                            alt="social"
-                            class="footer__social"
-                        />
-                    </div>
+                <div class="post__action">
+                  <a href="#!" class="post__link">Read more</a>
+                  <img src="./assets/img/arrow.png" alt="arrow" class="post__arrow" />
                 </div>
+              </div>
             </div>
-        </footer>
-    </body>
+
+            <div class="news__item">
+              <img src="./assets/img/new-2.png" alt="" class="news__picture" />
+              <div class="news__father">
+                <h3 class="news__info">10 tips for new traveller!</h3>
+                <p class="news__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut sed egestas
+                  imperdiet hac mi nunc neque. Congue rutrum arcu, consectetur molestie ornare
+                  justo.
+                </p>
+                <div class="post__action">
+                  <a href="#!" class="post__link">Read more</a>
+                  <img src="./assets/img/arrow.png" alt="arrow" class="post__arrow" />
+                </div>
+              </div>
+            </div>
+
+            <div class="news__item">
+              <img src="./assets/img/new-3.png" alt="" class="news__picture" />
+              <div class="news__father">
+                <h3 class="news__info">Make money while travelling!</h3>
+                <p class="news__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut sed egestas
+                  imperdiet hac mi nunc neque. Congue rutrum arcu, consectetur molestie ornare
+                  justo.
+                </p>
+                <div class="post__action">
+                  <a href="#!" class="post__link">Read more</a>
+                  <img src="./assets/img/arrow.png" alt="arrow" class="post__arrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#!" class="news__action"> View all </a>
+        </div>
+      </section>
+
+      <section class="tour">
+        <div class="contain">
+          <div class="place__heading tour__heading">
+            <div class="place__title">My Upcoming Tours & Destination</div>
+            <div class="place__separate"></div>
+          </div>
+
+          <section class="tour__list">
+            <!-- item 1 -->
+            <div class="tour__item">
+              <img
+                data-album="tour"
+                src="./assets/img/tour-1.png"
+                alt="tour"
+                class="tour__picture"
+              />
+              <div class="tour__body">
+                <h3 class="tour__info">Plan an Excellent Family Travel Adventure</h3>
+                <p class="tour__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor nunc purus id
+                  facilisi cursus risus egestas orci. Quis rhoncus nulla erat interdum adipiscing.
+                  scelerisque interdum tristique arcu scelerisque.
+                </p>
+                <p class="tour__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt purus arcu
+                  gravida sit a elit varius pellentesque.
+                </p>
+
+                <div class="post__action">
+                  <a href="#!" class="post__link">Read more</a>
+                  <img src="./assets/img/arrow.png" alt="arrow" class="post__arrow" />
+                </div>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="tour__item">
+              <div class="tour__body">
+                <h3 class="tour__info">Discover the place of adventure by traveling</h3>
+                <p class="tour__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor nunc purus id
+                  facilisi cursus risus egestas orci. Quis rhoncus nulla erat interdum adipiscing.
+                  scelerisque interdum tristique arcu scelerisque.
+                </p>
+                <p class="tour__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt purus arcu
+                  gravida sit a elit varius pellentesque.
+                </p>
+
+                <div class="post__action">
+                  <a href="#!" class="post__link">Read more</a>
+                  <img src="./assets/img/arrow.png" alt="arrow" class="post__arrow" />
+                </div>
+              </div>
+
+              <img
+                data-album="tour"
+                src="./assets/img/tour-2.png"
+                alt="tour"
+                class="tour__picture"
+              />
+            </div>
+
+            <!-- item 3 -->
+            <div class="tour__item">
+              <img
+                data-album="tour"
+                src="./assets/img/tour-3.png"
+                alt="tour "
+                class="tour__picture"
+              />
+              <div class="tour__body">
+                <h3 class="tour__info">Discovering the Highest Mountain Peak of Veleta</h3>
+                <p class="tour__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor nunc purus id
+                  facilisi cursus risus egestas orci. Quis rhoncus nulla erat interdum adipiscing.
+                  scelerisque interdum tristique arcu scelerisque.
+                </p>
+                <p class="tour__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt purus arcu
+                  gravida sit a elit varius pellentesque.
+                </p>
+
+                <div class="post__action">
+                  <a href="#!" class="post__link">Read more</a>
+                  <img src="./assets/img/arrow.png" alt="arrow" class="post__arrow" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="signup">
+        <h3 class="signup__title">Newsletter Signup</h3>
+        <p class="signup__desc">Signup my newsletter for latest tour plan and guide</p>
+        <form action="">
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter your email address"
+            class="signup__email"
+          />
+
+          <input type="button" value="Subscribe" class="signup__action" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contain">
+        <div class="footer__row">
+          <div class="footer__column footer__column--max">
+            <div class="header__heading">
+              <img src="./assets/img/favicon.svg" alt="favicon" />
+              <h1 class="header__title">Travel</h1>
+            </div>
+
+            <p class="footer__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis euismod fermentum
+              adipiscing tristique gravida congue aliquam. Adipiscing bibendum aliquam lectus
+              vulputate viverra.
+            </p>
+          </div>
+
+          <div class="footer__column">
+            <h4 class="footer__info">Useful Links</h4>
+
+            <ul class="footer__list">
+              <li>
+                <a href="#!" class="footer__item">Special Offers </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__item">Contact</a>
+              </li>
+              <li>
+                <a href="#!" class="footer__item">Attractions</a>
+              </li>
+              <li>
+                <a href="#!" class="footer__item">Our Gallery</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h4 class="footer__info">Find Events</h4>
+
+            <ul class="footer__list">
+              <li>
+                <a href="#!" class="footer__item">Event </a>
+              </li>
+              <li>
+                <a href="#!" class="footer__item">Calendar Facilities</a>
+              </li>
+              <li>
+                <a href="#!" class="footer__item">Support & FAQ</a>
+              </li>
+              <li>
+                <a href="#!" class="footer__item">Ways to Stay</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h4 class="footer__info">Follor me on Social</h4>
+
+            <img src="./assets/img/social-2.png" alt="social" class="footer__social" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="lightbox" class="modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img id="lightBoxImg" src="" alt="lightBoxImg" width="100%" />
+            <div class="text-center mt5">
+              <button id="lightBoxPrev" type="button" class="btn btn-secondary">Prev</button>
+              <button id="lightBoxNext" type="button" class="btn btn-secondary">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- embed bootstraps -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- embed script -->
+    <script type="module" src="./js/home.js"></script>
+  </body>
 </html>
