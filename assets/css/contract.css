@@ -93,7 +93,7 @@ a:hover {
     font-weight: 400;
 }
 
-.header__blog {
+.header__contract {
     text-shadow: 1px 0 0 currentColor;
 }
 
@@ -111,103 +111,296 @@ a:hover {
     height: 44px;
 }
 
-/* left */
 
-.left__father {
+
+/* Contract-Me */
+.contact__title {
+    justify-content: center;
+    align-items: center;
     display: flex;
-}
-
-.left {
-    width: 59.3%;
-}
-
-.left__title {
-    color: #000;
-    font-size: 4.2rem;
-    font-weight: 600;
-    line-height: 29.124px;
-    /* 69.343% */
-}
-
-.left__date {
-    margin-top: 24px;
-    color: #000;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 29.124px;
-}
-
-.left__picture {
-    margin-top: 25px;
-    width: 780px;
-    height: 535px;
-    object-fit: cover;
-}
-
-.left__desc {
-    margin-top: 32px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.9px;
-    padding-bottom: 20px;
-}
-
-.left__action {
-    color: #000;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 29.124px;
-}
-
-.left__separate {
-    margin-top: 21px;
+    color: white;
+    margin-right: 0px;
+    font-size: 60px;
+    font-weight: 392px;
+    background-image: url("/assets/img/contractme.png");
+    background-size: 100% 100%;
     width: 100%;
-    height: 1.5px;
-    background: gray;
-    margin-bottom: 40px;
+    height: 390px;
 }
 
-/* right */
 
-.right {
-    margin-left: 60px;
-    border-left: 1px solid #c1c1c1;
-    padding: 0 40px 40px 40px;
-}
+/* Content_left */
 
-.right__title {
-    color: #000;
-    font-size: 3.2rem;
+.about__title {
+    margin-top: -650px;
+    margin-left: 196px;
+    width: 645px;
+    height: 849px;
+    font-size: 42px;
     font-weight: 600;
-    line-height: 29.124px;
-    /* 91.013% */
 }
 
-.item {
-    display: block;
-    margin-top: 18px;
-    color: #000;
-    font-size: 1.6rem;
+.about__desc{
+    margin-top: -725px;
+    margin-left: 196px;
+    max-width: 645px;
+    font-size: 16px;
+    font-family: Montserrat;
     font-weight: 400;
-    line-height: 29.124px;
-    /* 182.025% */
+    line-height: 29.12px;
+    word-wrap: break-word
+}
+.about__desc2 {
+    max-width: 645px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 29.12px;
+    word-wrap: break-word
 }
 
-.right__list--bottom {
+.phone{
+    margin-top: 20px;
+    margin-left: 196px;
+    background-color: #ffd937;
+    border-radius: 15px;
+    width: 83px;
+    height: 83px;
+}
+
+.email{
+    margin-top: 20px;
+    margin-left: 196px;
+    background-color: #ffd937;
+    border-radius: 15px;
+    width: 83px;
+    height: 83px;
+}
+
+.about__desc2{
+    margin-top: 25px;
+    margin-left: 196px;
+    width: 785px;
+}
+
+.content__phone1{
+    margin-top: -70px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.content__phone2{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 29.12px;
+    word-wrap: break-word;
+}
+
+.content__email1{
+    margin-top: -70px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.content__email2{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 29.12px;
+    word-wrap: break-word;
+}
+
+/* Contact-send */
+.contact__send {
+    margin-top: 123px;
+    margin-left: 55%;
+    width: 785px;
+    height: 849px;
+    background: white;
+    box-shadow: 0px 12px 43px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+.contact__name{
+    margin-left: 41px;
+    width: 331px;
+    height: 61px;
+    border: 1px #E7E7E7 solid;
+    background: #FAFAFA;
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 60.124px;
+    padding-left: 35px;
+}
+.contact__last {
+    margin-left: 25px;
+    width: 331px;
+    height: 61px;
+    border: 1px #E7E7E7 solid;
+    background: #FAFAFA;
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 60.124px;
+    padding-left: 35px;
+}
+
+.title__name{
+    padding-top: 68px;
+    padding-left: 41px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.shadow{
+    width: 785px;
+}
+.shadow__first{
+    float: left ;
+    width: 200px;
+    margin-left: 41px;
+    margin-top: 7px;
+    font-weight: 450;
+}
+
+.shadow__last {
+    float: left;
+    margin-left: 160px;
+    margin-top: 7px;
+    font-weight: 450;
+}
+
+.title__email{
+    margin-top: 45px;
+    font-weight: bolder;
+    margin-left: 41px;
+}
+
+.contact__email{
+    margin-top: 15px;
+    margin-left: 41px;
+    width: 686px;
+    height: 61px;
+    border: 1px #E7E7E7 solid;
+    background: #FAFAFA;
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 60.124px;
+    padding-left: 35px;
+}
+
+.title__subject{
+    margin-top: 25px;
+    margin-left: 41px;
+    font-weight: bolder;
+}
+
+.contact__subject{
+    margin-top: 15px;
+    margin-left: 41px;
+    width: 686px;
+    height: 61px;
+    border: 1px #E7E7E7 solid;
+    background: #FAFAFA;
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 60.124px;
+    padding-left: 35px;
+}
+
+.title__message{
+    margin-top: 25px;
+    margin-left: 41px;
+    font-weight: bolder;
+}
+
+.contact__message{
+    margin-top: 15px;
+    margin-left: 41px;
+    width: 686px;
+    height: 280px;
+    border: 1px #E7E7E7 solid;
+    background: #FAFAFA;
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.contact__button{
+    margin-top: 21px;
+    width: 171px;
+    height: 44px;
+    margin-left: 41px;
+    border-radius: 15px;
+    border-color: #ffd937;
+    background: #ffd937;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+/* As seen in */
+
+.background{
+    margin-top: 297px;
+    width: 100%;
+    height: 692px;
+    background-color: #FAFAFA;
+}
+
+.text__content{
+    margin-top: -564px;
+    color: black;
+    font-size: 42px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 48px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.vector{
+    border: 4px #FFD937 solid;
+    width: 145px;
+    margin-left: 1120px;
+    margin-top: 28px;
+}
+
+.logo1{
     margin-top: 50px;
+    margin-left: 660px;
 }
 
-/* separate  */
+.logo2{
+    margin-left: 40px;
+}
 
-.separate {
-    position: absolute;
-    width: 800px;
-    height: 1.5px;
-    background: #c1c1c1;
-    rotate: 90deg;
+.logo3 {
+    margin-left: 40px;
+}
+
+.logo4 {
+    margin-top: 50px;
+    margin-left: 660px;
+}
+
+.logo5 {
+    margin-left: 40px;
+}
+
+.logo6 {
+    margin-left: 40px;
 }
 
 /* signup */
