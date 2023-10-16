@@ -7,7 +7,7 @@ function lightBox() {
   const imgElement = document.getElementById('lightBoxImg')
   const prevElement = document.getElementById('lightBoxPrev')
   const nextElement = document.getElementById('lightBoxNext')
-  const imgList = document.querySelectorAll('img[data-album="tour"]')
+  const imgList = document.querySelectorAll('img[data-album="blog"]')
 
   if (!imgElement || !prevElement || !nextElement) return
 
