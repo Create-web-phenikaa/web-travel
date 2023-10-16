@@ -37,7 +37,7 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li>
-                <a href="./home.html" class="header__item">Home</a>
+                <a href="#!" class="header__item">Home</a>
               </li>
               <li>
                 <a href="#!" class="header__item">About me</a>
@@ -65,84 +65,54 @@
 
     <main id="blog">
       <div class="contain">
-        <section class="left__father">
+        <section class="father">
           <section class="left">
-            <section class="left__list">
-              <!-- item 1 -->
-              <section class="left__item">
-                <h2 class="left__title">Taste-safe sensory nulla dignissim</h2>
-                <p class="left__date">Play Spaces, Toddlers / January 21, 2021</p>
+            <ul id="ulList"></ul>
+            <template id="blogTemplate">
+              <section class="left__list">
+                <!-- item 1 -->
+                <section class="left__item">
+                  <h2 data-id="title" class="left__title"></h2>
+                  <p data-id="date" class="left__date"></p>
 
-                <img
-                  src="./assets/img/blog-3.avif"
-                  data-album="blog"
-                  alt="blog"
-                  class="left__picture"
-                />
+                  <img src="" data-album="blog" alt="blog" class="left__picture" data-id="img" />
 
-                <p class="left__desc">
-                  Consectetur enim viverra etiam semper interdum amet faucibus gravida bibendum nisl
-                  orci adipiscing ut in tristique diam bibendum turpis in nec nisi amet, ac sit
-                  adipiscing egestas gravida accumsan elit id viverra dolor volutpat mauris tortor
-                  odio diam nam sit et, sed in amet ultrices libero, posuere aliquet semper
-                  adipiscing turpis hendrerit id interdum elementum. …
-                </p>
+                  <p data-id="desc" class="left__desc"></p>
 
-                <a href="#!" class="left__action"> Read More >> </a>
+                  <a href="#!" class="left__action"> Read More >> </a>
+                </section>
+
+                <div class="left__separate"></div>
+
+                <!-- item 2 -->
+                <section class="left__item">
+                  <h2 data-id="title-1" class="left__title"></h2>
+                  <p data-id="date-1" class="left__date"></p>
+
+                  <img src="" data-album="blog" alt="blog" class="left__picture" data-id="img-1" />
+
+                  <p data-id="desc-1" class="left__desc"></p>
+
+                  <a href="#!" class="left__action"> Read More >> </a>
+                </section>
+
+                <div class="left__separate"></div>
+
+                <!-- item 3 -->
+                <section class="left__item">
+                  <h2 data-id="title-2" class="left__title"></h2>
+                  <p data-id="date-2" class="left__date"></p>
+
+                  <img src="" data-album="blog" alt="blog" class="left__picture" data-id="img-2" />
+
+                  <p data-id="desc-2" class="left__desc"></p>
+
+                  <a href="#!" class="left__action"> Read More >> </a>
+                </section>
+
+                <div class="left__separate"></div>
               </section>
-
-              <div class="left__separate"></div>
-
-              <!-- item 2 -->
-              <section class="left__item">
-                <h2 class="left__title">Taste-safe sensory nulla dignissim</h2>
-                <p class="left__date">Play Spaces, Toddlers / January 21, 2021</p>
-
-                <img
-                  src="./assets/img/blog-2.avif"
-                  data-album="blog"
-                  alt="blog"
-                  class="left__picture"
-                />
-
-                <p class="left__desc">
-                  Consectetur enim viverra etiam semper interdum amet faucibus gravida bibendum nisl
-                  orci adipiscing ut in tristique diam bibendum turpis in nec nisi amet, ac sit
-                  adipiscing egestas gravida accumsan elit id viverra dolor volutpat mauris tortor
-                  odio diam nam sit et, sed in amet ultrices libero, posuere aliquet semper
-                  adipiscing turpis hendrerit id interdum elementum. …
-                </p>
-
-                <a href="#!" class="left__action"> Read More >> </a>
-              </section>
-
-              <div class="left__separate"></div>
-
-              <!-- item 3 -->
-              <section class="left__item">
-                <h2 class="left__title">Taste-safe sensory nulla dignissim</h2>
-                <p class="left__date">Play Spaces, Toddlers / January 21, 2021</p>
-
-                <img
-                  src="./assets/img/blog-1.avif"
-                  data-album="blog"
-                  alt="blog"
-                  class="left__picture"
-                />
-
-                <p class="left__desc">
-                  Consectetur enim viverra etiam semper interdum amet faucibus gravida bibendum nisl
-                  orci adipiscing ut in tristique diam bibendum turpis in nec nisi amet, ac sit
-                  adipiscing egestas gravida accumsan elit id viverra dolor volutpat mauris tortor
-                  odio diam nam sit et, sed in amet ultrices libero, posuere aliquet semper
-                  adipiscing turpis hendrerit id interdum elementum. …
-                </p>
-
-                <a href="#!" class="left__action"> Read More >> </a>
-              </section>
-
-              <div class="left__separate"></div>
-            </section>
+            </template>
           </section>
 
           <section class="right">
@@ -152,17 +122,23 @@
               <ul>
                 <li>
                   <a href="#!">
-                    <right class="item right__item">Taste-safe sensory nulla dignissim</right>
+                    <h2 id="1" data-title="title" class="item right__item">
+                      Taste-safe sensory nulla dignissim
+                    </h2>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <right class="item">Exploring the duis lacus turpis faucibus</right>
+                    <h2 id="2" data-title="title" class="item">
+                      Exploring the duis lacus turpis faucibus
+                    </h2>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <right class="item">How to improve venenatis ultrices nulla</right>
+                    <h2 id="3" data-title="title" class="item">
+                      How to improve venenatis ultrices nulla
+                    </h2>
                   </a>
                 </li>
               </ul>
@@ -174,29 +150,29 @@
               <ul>
                 <li>
                   <a href="#!">
-                    <right class="item right__item">Places</right>
+                    <h2 id="4" data-title="title" class="item right__item">Places</h2>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <right class="item">Tips and Guide</right>
+                    <h2 id="5" data-title="title" class="item">Tips and Guide</h2>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <right class="item">Beginners Guide</right>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#!">
-                    <right class="item">Most Favourite Places</right>
+                    <h2 id="6" data-title="title" class="item">Beginners Guide</h2>
                   </a>
                 </li>
 
                 <li>
                   <a href="#!">
-                    <right class="item">Asian Culture</right>
+                    <h2 id="7" data-title="title" class="item">Most Favourite Places</h2>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#!">
+                    <h2 id="8" data-title="title" class="item">Asian Culture</h2>
                   </a>
                 </li>
               </ul>

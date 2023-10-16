@@ -16,7 +16,6 @@ export function lightBox({ modalId, imgElement, lightBoxPrev, lightBoxNext }) {
   }
 
   document.addEventListener('click', (e) => {
-    console.log('hahahah')
     const { target } = e
 
     if (target.tagName !== 'IMG' || !target.dataset.album) return
