@@ -234,7 +234,7 @@ a:hover {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 60.124px;
-    padding-left: 35px;
+
 }
 .contact__last {
     margin-left: 25px;
@@ -247,7 +247,6 @@ a:hover {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 60.124px;
-    padding-left: 35px;
 }
 
 .title__name{
@@ -293,7 +292,6 @@ a:hover {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 60.124px;
-    padding-left: 35px;
 }
 
 .title__subject{
@@ -314,7 +312,6 @@ a:hover {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 60.124px;
-    padding-left: 35px;
 }
 
 .title__message{
