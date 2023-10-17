@@ -1,4 +1,6 @@
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -113,8 +115,8 @@ a:hover {
 
 
 
-/* Contract-Me */
-.contact__title {
+/* About-Me */
+.about__title {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -122,14 +124,90 @@ a:hover {
     margin-right: 0px;
     font-size: 60px;
     font-weight: 392px;
-    background-image: url("/assets/img/contractme.png");
+    background-image: url("/assets/img/aboutme.png");
     background-size: 100% 100%;
     width: 100%;
     height: 390px;
 }
 
+.section1 {
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    margin: 200px 0px;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.section1 img {
+    width: 604px;
+    height: 600px;
+    margin-right: 100px;
+    flex-basis: 40%;
+}
 
+.section2 {
+    width: 1500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+.img-shower {
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-shower>img {
+    margin: 10px;
+}
+
+.section_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-header {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.832px; /* 92.457% */
+    text-transform: capitalize; 
+    margin-bottom: 30px;
+}
+
+.section-header::after{
+    content: "";
+    margin-top: 30px;
+    width: 150px;
+    height: 5px;
+    display: block;
+    background-color: rgb(255, 217, 55);
+}
+
+.section-text {
+    width: 807px;
+    height: auto;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.9px; /* 161.875% */
+    text-transform: capitalize;
+}
 
 /* As seen in */
 
