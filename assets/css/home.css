@@ -314,7 +314,7 @@ a:hover {
         ),
         lightgray 50% / cover no-repeat, #c4c4c4;
 
-    background-image: url("../img/item-2.png");
+    background-image: url("../img/place-2.png");
 }
 
 .place__item--6 {
@@ -328,7 +328,7 @@ a:hover {
         ),
         lightgray 50% / cover no-repeat, #c4c4c4;
 
-    background-image: url("../img/item-3.png");
+    background-image: url("../img/place-3.png");
 }
 
 .place__head {
