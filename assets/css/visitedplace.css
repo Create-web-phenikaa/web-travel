@@ -169,10 +169,20 @@ a:hover {
     width: 1500px;
     display: flex;
     justify-content: space-between;
+    margin-left: -95px;
 }
 
 .img-shower>.image {
-    margin: 10px;
+    margin: 30px;
+}
+
+.image img {
+    border-radius: 15px;
+}
+
+.img-shower>.image:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
 }
 
 .section-header {
