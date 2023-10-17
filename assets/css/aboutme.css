@@ -25,13 +25,8 @@ a:hover {
     opacity: 0.7;
 }
 
-.content {
-    max-width: calc(100% - 120px);
-    margin: 0 auto;
-}
-
 .contain {
-    max-width: calc(100% - 200px);
+    max-width: calc(100% - 500px);
     margin: 0 auto;
 }
 
@@ -91,7 +86,7 @@ a:hover {
 
 .header__item {
     color: #000;
-    font-size: 16px;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
@@ -112,8 +107,6 @@ a:hover {
     width: 156px;
     height: 44px;
 }
-
-
 
 /* About-Me */
 .about__title {
@@ -165,7 +158,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.img-shower>img {
+.img-shower > img {
     margin: 10px;
 }
 
@@ -182,11 +175,11 @@ a:hover {
     font-style: normal;
     font-weight: 600;
     line-height: 38.832px; /* 92.457% */
-    text-transform: capitalize; 
+    text-transform: capitalize;
     margin-bottom: 30px;
 }
 
-.section-header::after{
+.section-header::after {
     content: "";
     margin-top: 30px;
     width: 150px;
@@ -215,7 +208,7 @@ a:hover {
     margin-top: 297px;
     width: 100%;
     height: 692px;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 }
 
 .text__content {
@@ -231,9 +224,9 @@ a:hover {
 }
 
 .vector {
-    border: 4px #FFD937 solid;
+    border: 4px #ffd937 solid;
     width: 145px;
-    margin-left: 880px;
+    margin-left: 940px;
     margin-top: 28px;
 }
 
@@ -295,7 +288,7 @@ a:hover {
 
 .signup__email {
     margin-top: 31px;
-    margin-left: 35.5%;
+    margin-left: 38.5%;
     width: 472px;
     height: 61px;
     border-radius: 10px;
@@ -314,7 +307,7 @@ a:hover {
     margin-top: 21px;
     width: 281px;
     height: 61px;
-    margin-left: 42%;
+    margin-left: 43.5%;
     border-radius: 10px;
     background: #ffd937;
     color: #000;

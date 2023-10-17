@@ -23,14 +23,10 @@ a:hover {
     opacity: 0.7;
 }
 
-.content {
-    max-width: calc(100% - 120px);
-    margin: 0 auto;
-}
-
 .contain {
-    max-width: calc(100% - 680px);
-    margin: 0 auto;
+    max-width: calc(100% - 500px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* header */
@@ -79,7 +75,7 @@ a:hover {
     margin-top: 5px;
     margin-left: 16.07px;
     color: #000;
-    font-size: 33.882px;
+    font-size: 3.38rem;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 4.913px;
@@ -87,7 +83,7 @@ a:hover {
 
 .header__item {
     color: #000;
-    font-size: 16px;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
@@ -120,16 +116,17 @@ a:hover {
 /* post */
 
 .post__top {
-    margin-top: 141px;
     display: flex;
+    margin-top: 141px;
+    gap: 75px;
 }
 
 .post__imgs {
     position: relative;
 }
 .post__img--above {
-    width: 766px;
-    height: 500px;
+    width: 866px;
+    height: 586px;
     border-radius: 15px;
     opacity: 0.5;
     background: #000;
@@ -137,19 +134,15 @@ a:hover {
 
 .post__img--below {
     position: absolute;
-    top: 200px;
-    left: 340px;
+    top: 250px;
+    left: 390px;
     width: 122px;
     height: 122px;
 }
 
-.post__news {
-    margin-left: 75px;
-}
-
 .post__picture {
-    width: 486.897px;
-    height: 200px;
+    width: 576.897px;
+    height: 299px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -236,7 +229,7 @@ a:hover {
     margin-top: 60px;
     display: flex;
     flex: 1;
-    gap: 30px;
+    gap: 60px;
 }
 
 .place__father {
@@ -417,7 +410,7 @@ a:hover {
 
 .guide__button {
     margin-top: 51px;
-    margin-left: 37.5%;
+    margin-left: 41%;
     display: inline-flex;
     height: 52px;
     padding: 19px 60px;
@@ -453,8 +446,8 @@ a:hover {
 }
 
 .news__picture {
-    width: 406px;
-    height: 258px;
+    width: 473px;
+    height: 358px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
 }
@@ -513,8 +506,8 @@ a:hover {
 }
 
 .tour__picture {
-    width: 685px;
-    height: 450px;
+    width: 735px;
+    height: 500px;
 }
 
 .tour__info {
@@ -562,7 +555,7 @@ a:hover {
 
 .signup__email {
     margin-top: 31px;
-    margin-left: 35.5%;
+    margin-left: 38.5%;
     width: 472px;
     height: 61px;
     border-radius: 10px;
@@ -581,7 +574,7 @@ a:hover {
     margin-top: 21px;
     width: 281px;
     height: 61px;
-    margin-left: 42%;
+    margin-left: 43.5%;
     border-radius: 10px;
     background: #ffd937;
     color: #000;
@@ -597,7 +590,7 @@ a:hover {
 .footer__row {
     margin-top: 98px;
     display: flex;
-    gap: 80px;
+    gap: 110px;
     margin-bottom: 50px;
 }
 
@@ -609,7 +602,7 @@ a:hover {
     margin-top: 30px;
     color: #000;
     font-family: Noto Sans;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 25.888px;
 }

@@ -23,14 +23,10 @@ a:hover {
     opacity: 0.7;
 }
 
-.content {
-    max-width: calc(100% - 120px);
-    margin: 0 auto;
-}
-
 .contain {
-    max-width: calc(100% - 200px);
-    margin: 0 auto;
+    max-width: calc(100% - 500px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* header */
@@ -89,7 +85,7 @@ a:hover {
 
 .header__item {
     color: #000;
-    font-size: 16px;
+    font-size: 2.2rem;
     font-weight: 400;
 }
 
@@ -111,8 +107,6 @@ a:hover {
     height: 44px;
 }
 
-
-
 /* Contract-Me */
 .contact__title {
     justify-content: center;
@@ -128,7 +122,6 @@ a:hover {
     height: 390px;
 }
 
-
 /* Content_left */
 
 .about__title {
@@ -140,7 +133,7 @@ a:hover {
     font-weight: 600;
 }
 
-.about__desc{
+.about__desc {
     margin-top: -725px;
     margin-left: 196px;
     max-width: 645px;
@@ -148,7 +141,7 @@ a:hover {
     font-family: Montserrat;
     font-weight: 400;
     line-height: 29.12px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 .about__desc2 {
     max-width: 645px;
@@ -156,10 +149,10 @@ a:hover {
     font-family: Montserrat;
     font-weight: 400;
     line-height: 29.12px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
-.phone{
+.phone {
     margin-top: 20px;
     margin-left: 196px;
     background-color: #ffd937;
@@ -168,7 +161,7 @@ a:hover {
     height: 83px;
 }
 
-.email{
+.email {
     margin-top: 20px;
     margin-left: 196px;
     background-color: #ffd937;
@@ -177,19 +170,19 @@ a:hover {
     height: 83px;
 }
 
-.about__desc2{
+.about__desc2 {
     margin-top: 25px;
     margin-left: 196px;
     width: 785px;
 }
 
-.content__phone1{
+.content__phone1 {
     margin-top: -70px;
     margin-left: 300px;
     font-size: 20px;
 }
 
-.content__phone2{
+.content__phone2 {
     margin-top: 10px;
     margin-left: 300px;
     font-size: 36px;
@@ -198,13 +191,13 @@ a:hover {
     word-wrap: break-word;
 }
 
-.content__email1{
+.content__email1 {
     margin-top: -70px;
     margin-left: 300px;
     font-size: 20px;
 }
 
-.content__email2{
+.content__email2 {
     margin-top: 10px;
     margin-left: 300px;
     font-size: 36px;
@@ -223,25 +216,24 @@ a:hover {
     box-shadow: 0px 12px 43px -2px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
 }
-.contact__name{
+.contact__name {
     margin-left: 41px;
     width: 331px;
     height: 61px;
-    border: 1px #E7E7E7 solid;
-    background: #FAFAFA;
+    border: 1px #e7e7e7 solid;
+    background: #fafafa;
     color: #000;
     font-family: Noto Sans;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 60.124px;
-
 }
 .contact__last {
     margin-left: 25px;
     width: 331px;
     height: 61px;
-    border: 1px #E7E7E7 solid;
-    background: #FAFAFA;
+    border: 1px #e7e7e7 solid;
+    background: #fafafa;
     color: #000;
     font-family: Noto Sans;
     font-size: 1.8rem;
@@ -249,18 +241,18 @@ a:hover {
     line-height: 60.124px;
 }
 
-.title__name{
+.title__name {
     padding-top: 68px;
     padding-left: 41px;
     padding-bottom: 15px;
     font-weight: bolder;
 }
 
-.shadow{
+.shadow {
     width: 785px;
 }
-.shadow__first{
-    float: left ;
+.shadow__first {
+    float: left;
     width: 200px;
     margin-left: 41px;
     margin-top: 7px;
@@ -274,19 +266,19 @@ a:hover {
     font-weight: 450;
 }
 
-.title__email{
+.title__email {
     margin-top: 45px;
     font-weight: bolder;
     margin-left: 41px;
 }
 
-.contact__email{
+.contact__email {
     margin-top: 15px;
     margin-left: 41px;
     width: 686px;
     height: 61px;
-    border: 1px #E7E7E7 solid;
-    background: #FAFAFA;
+    border: 1px #e7e7e7 solid;
+    background: #fafafa;
     color: #000;
     font-family: Noto Sans;
     font-size: 1.8rem;
@@ -294,19 +286,19 @@ a:hover {
     line-height: 60.124px;
 }
 
-.title__subject{
+.title__subject {
     margin-top: 25px;
     margin-left: 41px;
     font-weight: bolder;
 }
 
-.contact__subject{
+.contact__subject {
     margin-top: 15px;
     margin-left: 41px;
     width: 686px;
     height: 61px;
-    border: 1px #E7E7E7 solid;
-    background: #FAFAFA;
+    border: 1px #e7e7e7 solid;
+    background: #fafafa;
     color: #000;
     font-family: Noto Sans;
     font-size: 1.8rem;
@@ -314,25 +306,25 @@ a:hover {
     line-height: 60.124px;
 }
 
-.title__message{
+.title__message {
     margin-top: 25px;
     margin-left: 41px;
     font-weight: bolder;
 }
 
-.contact__message{
+.contact__message {
     margin-top: 15px;
     margin-left: 41px;
     width: 686px;
     height: 280px;
-    border: 1px #E7E7E7 solid;
-    background: #FAFAFA;
+    border: 1px #e7e7e7 solid;
+    background: #fafafa;
     color: #000;
     font-family: Noto Sans;
     font-size: 1.8rem;
     font-weight: 400;
 }
-.contact__button{
+.contact__button {
     margin-top: 21px;
     width: 171px;
     height: 44px;
@@ -348,14 +340,14 @@ a:hover {
 
 /* As seen in */
 
-.background{
+.background {
     margin-top: 297px;
     width: 100%;
     height: 692px;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 }
 
-.text__content{
+.text__content {
     margin-top: -564px;
     color: black;
     font-size: 42px;
@@ -367,19 +359,19 @@ a:hover {
     text-align: center;
 }
 
-.vector{
-    border: 4px #FFD937 solid;
+.vector {
+    border: 4px #ffd937 solid;
     width: 145px;
     margin-left: 880px;
     margin-top: 28px;
 }
 
-.logo1{
+.logo1 {
     margin-top: 50px;
     margin-left: 440px;
 }
 
-.logo2{
+.logo2 {
     margin-left: 40px;
 }
 
@@ -432,7 +424,7 @@ a:hover {
 
 .signup__email {
     margin-top: 31px;
-    margin-left: 35.5%;
+    margin-left: 38.5%;
     width: 472px;
     height: 61px;
     border-radius: 10px;
@@ -451,7 +443,7 @@ a:hover {
     margin-top: 21px;
     width: 281px;
     height: 61px;
-    margin-left: 42%;
+    margin-left: 43.5%;
     border-radius: 10px;
     background: #ffd937;
     color: #000;
