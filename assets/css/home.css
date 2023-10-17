@@ -24,7 +24,7 @@ a:hover {
 }
 
 .contain {
-    max-width: calc(100% - 500px);
+    max-width: calc(100% - 400px);
     margin-left: auto;
     margin-right: auto;
 }
