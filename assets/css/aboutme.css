@@ -266,7 +266,7 @@ a:hover {
 /* signup */
 .signup {
     margin-top: 150px;
-    background-image: url("/assets/img/signup.png");
+    background-image: url("../img/signup.png");
     width: 100%;
     height: 481px;
 }
