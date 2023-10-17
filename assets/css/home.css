@@ -255,7 +255,7 @@ a:hover {
         ),
         lightgray 50% / cover no-repeat, #c4c4c4;
 
-    background-image: url("/assets/img/item-1.png");
+    background-image: url("../img/item-1.png");
 }
 
 .place__item:hover {
@@ -273,7 +273,7 @@ a:hover {
             rgba(0, 0, 0, 0.57) 100%
         ),
         lightgray 50% / cover no-repeat, #c4c4c4;
-    background-image: url("/assets/img/item-2.png");
+    background-image: url("../img/item-2.png");
 }
 
 .place__item--3 {
@@ -286,7 +286,49 @@ a:hover {
             rgba(0, 0, 0, 0.57) 100%
         ),
         lightgray 50% / cover no-repeat, #c4c4c4;
-    background-image: url("/assets/img/item-3.png");
+    background-image: url("../img/item-3.png");
+}
+
+.place__item--4 {
+    width: 473px;
+    height: 682px;
+    border-radius: 15px;
+    background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.57) 100%
+        ),
+        lightgray 50% / cover no-repeat, #c4c4c4;
+
+    background-image: url("../img/place-1.png");
+}
+
+.place__item--5 {
+    width: 473px;
+    height: 682px;
+    border-radius: 15px;
+    background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.57) 100%
+        ),
+        lightgray 50% / cover no-repeat, #c4c4c4;
+
+    background-image: url("../img/item-2.png");
+}
+
+.place__item--6 {
+    width: 473px;
+    height: 682px;
+    border-radius: 15px;
+    background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.57) 100%
+        ),
+        lightgray 50% / cover no-repeat, #c4c4c4;
+
+    background-image: url("../img/item-3.png");
 }
 
 .place__head {
