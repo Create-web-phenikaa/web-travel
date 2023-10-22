@@ -117,7 +117,7 @@ a:hover {
     margin-right: 0px;
     font-size: 60px;
     font-weight: 392px;
-    background-image: url("/assets/img/aboutme.png");
+    background-image: url("../img/aboutme.png");
     background-size: 100% 100%;
     width: 100%;
     height: 390px;
